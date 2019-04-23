@@ -1,0 +1,732 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1555782056886,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "8b483f35-00c5-43a8-a305-126b38b1d6dd",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Troubleshooting an Arista EOS Switch",
+      "rank": 497,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "11c4e514-4054-4529-abe3-d30568b475a4",
+            "widgetIdReceiver": "9e7dbae7-b472-4ce7-802e-a8f26dc072b1"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "11c4e514-4054-4529-abe3-d30568b475a4",
+            "widgetIdReceiver": "0f75f327-246b-421b-a02f-d109cb3c2dd2"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "11c4e514-4054-4529-abe3-d30568b475a4",
+            "widgetIdReceiver": "2c23af47-7a67-4ffc-929c-efb05109944e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "11c4e514-4054-4529-abe3-d30568b475a4",
+            "widgetIdReceiver": "88126598-9cdb-44d9-a588-e0f73cc99576"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "11c4e514-4054-4529-abe3-d30568b475a4",
+            "widgetIdReceiver": "78f93046-2723-41fc-bb26-364969f2396d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "11c4e514-4054-4529-abe3-d30568b475a4",
+            "widgetIdReceiver": "3fbef176-068e-4031-8984-9ebc77e8a97c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3fbef176-068e-4031-8984-9ebc77e8a97c",
+            "widgetIdReceiver": "773069e1-7842-422d-8619-bb1a7da49097"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3fbef176-068e-4031-8984-9ebc77e8a97c",
+            "widgetIdReceiver": "40b09294-cf57-4399-bbf4-459c96938964"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3fbef176-068e-4031-8984-9ebc77e8a97c",
+            "widgetIdReceiver": "cb824a98-35aa-4819-832e-735711ae8811"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Architecture",
+                     "metricKey": "Details|architecture",
+                     "metricName": "Details|Architecture",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Model",
+                     "metricKey": "Details|model",
+                     "metricName": "Details|Model",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Version",
+                     "metricKey": "Details|version",
+                     "metricName": "Details|Version",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Active Switching Mode",
+                     "metricKey": "User Configuration|active_switching_mode",
+                     "metricName": "User Configuration|Active Switching Mode",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "1.  Select Arista EOS Switch"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 267,
+            "id": "11c4e514-4054-4529-abe3-d30568b475a4",
+            "states": [{
+               "key": "permResGrid_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_11c4e514-4054-4529-abe3-d30568b475a4",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A176%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A122%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A95%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A170%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A192%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A89%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "1.  Select Arista EOS Switch",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricLabel": "",
+               "metricName": "",
+               "metricType": {"metricType": "health"},
+               "metricUnit": {
+                  "metricUnitId": null,
+                  "metricUnitName": ""
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "2.  Health of the selected Switch"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 267,
+            "id": "9e7dbae7-b472-4ce7-802e-a8f26dc072b1",
+            "states": [
+               {
+                  "key": "permDateRange_HealthChart_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_9e7dbae7-b472-4ce7-802e-a8f26dc072b1",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_9e7dbae7-b472-4ce7-802e-a8f26dc072b1",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "2.  Health of the selected Switch",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "3.  Alerts for the selected Switch",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 267,
+            "id": "0f75f327-246b-421b-a02f-d109cb3c2dd2",
+            "states": [
+               {
+                  "key": "permViewMode_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_0f75f327-246b-421b-a02f-d109cb3c2dd2",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_0f75f327-246b-421b-a02f-d109cb3c2dd2",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_0f75f327-246b-421b-a02f-d109cb3c2dd2",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A325%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AresourceName%2525255Edirection%2525253Ds%252525253AASC"
+               }
+            ],
+            "title": "3.  Alerts for the selected Switch",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoZoom": {"autoSize": false},
+               "nodeSize": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceName": "",
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "6.  Health of the related objects (to the selected Switch)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 1,
+               "y": 11
+            },
+            "height": 324,
+            "id": "88126598-9cdb-44d9-a588-e0f73cc99576",
+            "states": [{
+               "key": "permResourceRelationship_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_88126598-9cdb-44d9-a588-e0f73cc99576",
+               "value": "o%3A"
+            }],
+            "title": "6.  Health of the related objects (to the selected Switch)",
+            "type": "ResourceRelationship"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14238-1",
+                        "isStringMetric": false,
+                        "metricKey": "VXLAN|bum_packets_sent",
+                        "metricName": "VXLAN|BUM Packets Sent",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Arista EOS Switch",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14238-2",
+                        "isStringMetric": false,
+                        "metricKey": "VXLAN|data_transmitted_after_decapsulation",
+                        "metricName": "VXLAN|Data Transmitted After Decapsulation",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Arista EOS Switch",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14238-3",
+                        "isStringMetric": false,
+                        "metricKey": "VXLAN|data_transmitted_after_encapsulation",
+                        "metricName": "VXLAN|Data Transmitted After Encapsulation",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Arista EOS Switch",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14238-5",
+                        "isStringMetric": false,
+                        "metricKey": "VXLAN|encapsulation_packet_read_errors",
+                        "metricName": "VXLAN|Encapsulation Packet Read Errors",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Arista EOS Switch",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14238-6",
+                        "isStringMetric": false,
+                        "metricKey": "VXLAN|encapsulation_packet_send_errors",
+                        "metricName": "VXLAN|Encapsulation Packet Send Errors",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Arista EOS Switch",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14238-7",
+                        "isStringMetric": false,
+                        "metricKey": "VXLAN|encapsulation_packets_received",
+                        "metricName": "VXLAN|Encapsulation Packets Received",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Arista EOS Switch",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14238-8",
+                        "isStringMetric": false,
+                        "metricKey": "VXLAN|packets_sent_after_decapsulation",
+                        "metricName": "VXLAN|Packets Sent After Decapsulation",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Arista EOS Switch",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14238-9",
+                        "isStringMetric": false,
+                        "metricKey": "VXLAN|packets_transmitted_after_encapsulation",
+                        "metricName": "VXLAN|Packets Transmitted After Encapsulation",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Arista EOS Switch",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "5.  How is the selected Switch performing?",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 8,
+               "x": 5,
+               "y": 6
+            },
+            "height": 267,
+            "id": "78f93046-2723-41fc-bb26-364969f2396d",
+            "title": "5.  How is the selected Switch performing?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel13022-1",
+                     "isStringMetric": false,
+                     "metricKey": "memory|memory_usage",
+                     "metricName": "Memory|Memory Usage",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Arista EOS Switch",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "4.  How much memory is the selected Switch consuming?"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 6
+            },
+            "height": 267,
+            "id": "2c23af47-7a67-4ffc-929c-efb05109944e",
+            "states": [
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_2c23af47-7a67-4ffc-929c-efb05109944e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_2c23af47-7a67-4ffc-929c-efb05109944e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_2c23af47-7a67-4ffc-929c-efb05109944e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_2c23af47-7a67-4ffc-929c-efb05109944e",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_2c23af47-7a67-4ffc-929c-efb05109944e",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_2c23af47-7a67-4ffc-929c-efb05109944e",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "4.  How much memory is the selected Switch consuming?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "OS",
+                     "metricKey": "summary|guest|fullName",
+                     "metricName": "Summary|Guest Operating System|Guest OS Full Name",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "IP",
+                     "metricKey": "summary|guest|ipAddress",
+                     "metricName": "Summary|Guest Operating System|Guest OS IP Address",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "7.  VMs using the selected Switch"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 5,
+               "y": 11
+            },
+            "height": 324,
+            "id": "3fbef176-068e-4031-8984-9ebc77e8a97c",
+            "states": [
+               {
+                  "key": "permResGrid_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_3fbef176-068e-4031-8984-9ebc77e8a97c",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A293%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A278%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A160%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_3fbef176-068e-4031-8984-9ebc77e8a97c",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "7.  VMs using the selected Switch",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "8.  Alerts for selected VM",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 11
+            },
+            "height": 324,
+            "id": "773069e1-7842-422d-8619-bb1a7da49097",
+            "states": [
+               {
+                  "key": "permAlertGrid_perm_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_773069e1-7842-422d-8619-bb1a7da49097",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A97%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A158%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A295%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253AASC"
+               },
+               {
+                  "key": "permViewMode_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_773069e1-7842-422d-8619-bb1a7da49097",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_8b483f35-00c5-43a8-a305-126b38b1d6dd_773069e1-7842-422d-8619-bb1a7da49097",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "8.  Alerts for selected VM",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": false},
+               "title": "9.  Workload of the selected VM"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 17
+            },
+            "height": 324,
+            "id": "40b09294-cf57-4399-bbf4-459c96938964",
+            "title": "9.  Workload of the selected VM",
+            "type": "IntSummaryStress"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19877-1",
+                        "isStringMetric": false,
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19877-2",
+                        "isStringMetric": false,
+                        "label": "CPU Contention",
+                        "link": "",
+                        "metricKey": "cpu|capacity_contentionPct",
+                        "metricName": "CPU|Contention",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19877-3",
+                        "isStringMetric": false,
+                        "label": "CPU Usage",
+                        "link": "",
+                        "metricKey": "cpu|usage_average",
+                        "metricName": "CPU|Usage",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19877-4",
+                        "isStringMetric": false,
+                        "label": "Guest Filesystem Utilization",
+                        "link": "",
+                        "metricKey": "guestfilesystem|percentage_total",
+                        "metricName": "Guest File System|Utilization",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19877-5",
+                        "isStringMetric": false,
+                        "label": "Memory Balloon",
+                        "link": "",
+                        "metricKey": "mem|balloonPct",
+                        "metricName": "Memory|Balloon",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19877-6",
+                        "isStringMetric": false,
+                        "label": "Memory Usage",
+                        "link": "",
+                        "metricKey": "mem|usage_average",
+                        "metricName": "Memory|Usage",
+                        "metricUnitId": "Auto",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19877-7",
+                        "isStringMetric": false,
+                        "metricKey": "net|received_average",
+                        "metricName": "Network|Data Receive Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel19877-8",
+                        "isStringMetric": false,
+                        "metricKey": "net|transmitted_average",
+                        "metricName": "Network|Data Transmit Rate",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "10.  Performance Scoreboard for selected VM",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 17
+            },
+            "height": 324,
+            "id": "cb824a98-35aa-4819-832e-735711ae8811",
+            "title": "10.  Performance Scoreboard for selected VM",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "ARISTAEOS_ADAPTER",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "arista_eos_bm_exuno_aristaeos_switch"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "VirtualMachine"
+      }
+   ]},
+   "uuid": "e2bf8f5c-aedd-44ad-b5d4-1a4005b8d6e0"
+}
